@@ -1,0 +1,5 @@
+# croatian-stemmer extension
+comment = 'croatian word lemmatization'
+default_version = '1.0'
+module_pathname = '$libdir/croatian-stemmer'
+relocatable = true

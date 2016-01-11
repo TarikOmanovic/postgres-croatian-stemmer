@@ -1,0 +1,59 @@
+('', 'a', 'u', 'om', 'i', 'ima', 'e')
+('a', 'e', 'i', 'u', 'om', 'ama')
+('e', 'a', 'u', 'em', 'ima')
+('o', 'a', 'u', 'om', 'ima')
+('', 'a', 'u', 'om', 'ovi', 'ova', 'ovima', 'ove')
+('ak', 'ka', 'ku', 'kom', 'ci', 'aka', 'cima', 'ke')
+('k', 'ka', 'ku', 'kom', 'ci', 'cima', 'ke')
+('ac', 'ca', 'cu', 'cem', 'ci', 'aca', 'cima', 'ce')
+('anj', 'nja', 'nju', 'njem', 'njom', 'nji', 'anja', 'njima', 'nje')
+('ka', 'ke', 'ci', 'ki', 'ku', 'kom', 'aka', 'kama')
+('ar', 'ra', 'ru', 'rom', 'ri', 'ara', 'rima', 're')
+('ao', 'la', 'lom', 'lu', 'lovi', 'lova', 'lovima', 'love')
+('', 'a', 'u', 'om', 'em', 'evi', 'eva', 'evima', 'eve')
+('an', 'na', 'nu', 'nom', 'ni', 'ana', 'nima', 'ne')
+('in', 'ina', 'inu', 'inom', 'i', 'a', 'ima', 'e')
+('am', 'ma', 'mu', 'mom', 'movi', 'mova', 'movima', 'move')
+('t', 'ta', 'tu', 'tom', 'ti', 'ata', 'tima', 'te')
+('zak', 'ska', 'sku', 'skom', 'sci', 'zaka', 'scima', 'ske')
+('tak', 'tka', 'tku', 'tkom', 'tci', 'ci', 'taka', 'tcima', 'cima', 'tke')
+('dac', 'ca', 'cu', 'cem', 'ci', 'daca', 'cima', 'ce')
+('ga', 'ge', 'zi', 'gi', 'gu', 'gom', 'gama')
+('st', 'sti', 'šću', 'stima')
+('g', 'ga', 'gu', 'gom', 'zi', 'zima', 'ge')
+('sao', 'sli', 'šlju', 'slima')
+('t', 'ti', 'ću', 'tima')
+('an', 'ni', 'nog', 'noga', 'nome', 'nomu', 'nim', 'ni', 'nih', 'nima', 'ne')
+('o', 'og', 'oga', 'om', 'ome', 'omu', 'im', 'a', 'ih', 'ima', 'e')
+('ni', 'an', 'nog', 'noga', 'nome', 'nomu', 'nim', 'ni', 'nih', 'nima', 'ne')
+('a', 'e', 'oj', 'u', 'om', 'ih', 'ima')
+('', 'i', 'og', 'oga', 'om', 'ome', 'omu', 'im', 'ih', 'ima', 'e')
+('i', 'og', 'oga', 'om', 'ome', 'omu', 'im', 'ih', 'ima', 'e')
+
+/*
+recimo da je unesena rijec 'ukrasnomu'
+
+unesena rijec zavrsava sa 'u'
+'u' se pojavljuje kao sufiks u 1., 2., 3., 4., 5., 13., i 29. pravilu
+uklanjamo sufiks 'u'
+dodajemo 'ukrasnom'
+
+unesena rijec zavrsava sa 'mu'
+'mu' se pojavljuje kao sufiks u 16. pravilu
+uklanjamo sufiks 'mu'
+dodajemo 'ukrasno'
+
+unesena rijec zavrsava sa 'omu'
+'omu' se pojavljuje kao sufiks u 26., 27., 28., 29., 30. i 31. pravilu
+uklanjamo sufiks 'omu'
+dodajemo 'ukrasn'
+
+unesena rijec zavrsava sa 'nomu'
+'u' se pojavljuje kao sufiks u 26. i 28. pravilu
+uklanjamo sufiks 'nomu'
+dodajemo 'ukras'
+
+od dodanih rijeci, 'ukras' je najkraca. uzimamo ju kao korijen.
+*/
+
+
